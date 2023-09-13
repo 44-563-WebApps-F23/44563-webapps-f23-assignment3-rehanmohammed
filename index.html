@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+`<!DOCTYPE html>
 <html>
 <head>
  <title>   
@@ -36,8 +36,59 @@ Lab3
     <ul>
         <li>Chicken biryani</li>
         <li>Tacobell</li>
+        <ul>
+            <li>chicken Tacobell</li>
+            <li>lolipop Tacobell</li>
+            <li>panner Tacobell</li>
+        </ul>
         <li>Burger</li>
     </ul>
+    <hr>
+    <a href="C:\Users\S564168\OneDrive - nwmissouri.edu\Desktop\Web apps\webapps-repos\44563-webapps-f23-assignment3-rehanmohammed\MyStats.html">Link to my stats page</a>
+    <hr>
+    <h3>Sports of interest</h3>
+    <p>
+        Sports is good for health. when we play sports it keeps our body fit. if we are fit we can be active and fine.
+        every day keeping body fit will impove our productivity. if more productivity the we can perform good in our day to day activity.
+    </p>
+    <table bgcolor = "black">
+        <tr bgcolor = "white">
+            <th>Name of the Sports</th>
+            <th>Why i recommend the sports</th>
+            <th>Average hours</th>            
+        </tr>
+        <tr bgcolor = "white">
+            <td>Swimming</td> 
+            <td>It teaches to survive and it helps to internal organs health</td>
+            <td>8 hrs</td>
+        </tr>
+        <tr bgcolor = "white">
+            <td>chess</td>
+            <td>It impoves our thinking capability</td>
+            <td>3 hrs</td>
+        </tr>
+        <tr bgcolor = "white">    
+            <td>Tennis</td>
+            <td>It improves our arm stength</td>
+            <td>6 hrs</td>
+        </tr>
+    </table>
+    <hr>
+    <a href="https://stackoverflow.com/questions/2050597/what-is-the-optimum-way-to-handle-broken-images">Link of stackoverflow</a> 
+    <br>
+    <br>
+    <a href="https://css-tricks.com/snippets/jquery/better-broken-image-handling/">Link for code snippets</a>
 
+    <pre>
+        // Replace source
+        $('img').on("error", function() {
+        $(this).attr('src', '/images/missing.png');
+        });
+
+        // Or, hide them
+        $("img").on("error", function() {
+        $(this).hide();
+        });
+    </pre>
 </body>
 </html>
